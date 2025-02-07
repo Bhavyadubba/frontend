@@ -8,13 +8,45 @@
     <style>
     h1{
        color: aqua;
-    }    
+    }   
+    /* Class Selector */
+    .as{
+        color: blueviolet;
+    } 
+    /* Id selector */
+    #as{
+        color:lightskyblue;
+    }
+    /* Universal Selector */
+    *{
+        background-color:darkgoldenrod;
+    }
+    /* Descendand Selector */
+    div p{
+        font-style:italic;
+        color:darkcyan;
+    }
+    ul>li{
+        color:aquamarine;
+    }
+    /*  */
     </style>
+    <p class="as">Class Selector</p>
+    <p id="as">Id Selector</p>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+    </div>
+    <ul>
+        <li>
+            list
+            <li>inner list </li></li>
+    </ul>
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- nline CSS -->
-     <h1 style="background-color: antiquewhite;">Bhavya</h1>
+    <!-- Inline CSS -->
+     <h1 style="background-color:red;">Bhavya</h1>
 </body>
 </html>
