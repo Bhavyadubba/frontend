@@ -1,0 +1,82 @@
+/* navbar start */
+
+.hello_world{
+    background-color: rgb(253, 223, 223);
+}
+
+
+#sign{
+    color: #fff;
+    background-color: 	#d2691e;
+    border-color:#d2691e;
+ 
+}
+#notification{
+    color: #fff;
+    background-color: 	#d2691e;
+    border-color:#d2691e;
+    padding:2px;
+    font-size:.5rem;
+     
+}
+/* navbar end */
+
+/* Welcome hiya food start */
+
+.welcomefood{
+    background-color: #fae9dd;
+    
+}
+
+.hiyafood{
+    color: #d2691e;  
+}
+.orderfood{
+    color: #fff;
+    background-color: 	#d2691e;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+/* Welcome hiya food end */
+
+/* Food with a New Passion start  */
+
+.features{
+    background-color: #fcfcfc;
+}
+.headlinetext{
+    color: #d2691e; 
+}
+
+.qualityfood{
+    color: #e5faeb;
+    background-color: 	#d2691e;
+    border-color:#d2691e;
+    padding:2px;
+    
+}
+/* Food with a New Passion end */
+
+/* Treaty full food start */
+.treaty{
+    background-color: #ffe9e9;
+}
+/* Treaty full food End */
+
+/* User interface start */
+.fontuser{
+        font-size: 60px;  
+}
+
+.userinterface{
+background-color:#defde7; 
+}
+
+/* User unterface End */
+
+/* Contact with your comment start */
+
+#inputtype{
+    background-color: #fdf8f2;
+}
+/* Contact with your comment End */
