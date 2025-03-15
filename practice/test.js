@@ -33,3 +33,11 @@ function factorial(n) {
 
 console.log(factorial(5)); // output: 120
 
+function areAnagrams(str1, str2) {
+    if (str1.length !== str2.length) return false;
+
+    return str1.split('').sort().join('') === str2.split('').sort().join('');
+}
+
+console.log(areAnagrams("listen", "silent")); // output: true
+console.log(areAnagrams("hello", "world"));   // output: false
